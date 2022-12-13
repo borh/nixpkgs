@@ -23,13 +23,13 @@ let sd-bus-provider = if systemdSupport then "libsystemd" else "basu"; in
 
 stdenv.mkDerivation rec {
   pname = "sway-unwrapped";
-  version = "1.8-rc2";
+  version = "1.8-rc3";
 
   src = fetchFromGitHub {
     owner = "swaywm";
     repo = "sway";
     rev = version;
-    hash = "sha256-a1ypTSWcyOk1s97ogrVFrKfhRKfkHzbAqN5smoO36Wg=";
+    hash = "sha256-ltmlD8R/Dsv80+f3olHeRFOYlrHdcfMa19CfYADqSfI=";
   };
 
   patches = [

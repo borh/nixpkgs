@@ -9,7 +9,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "hipfort";
-  version = "5.6.0";
+  version = "5.6.1";
 
   src = fetchFromGitHub {
     owner = "ROCmSoftwarePlatform";

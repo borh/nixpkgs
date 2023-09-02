@@ -15,7 +15,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "composable_kernel";
-  version = "unstable-2023-01-16";
+  version = "unstable-2023-08-31";
 
   outputs = [
     "out"
@@ -29,8 +29,8 @@ stdenv.mkDerivation (finalAttrs: {
   src = fetchFromGitHub {
     owner = "ROCmSoftwarePlatform";
     repo = "composable_kernel";
-    rev = "80e05267417f948e4f7e63c0fe807106d9a0c0ef";
-    hash = "sha256-+c0E2UtlG/abweLwCWWjNHDO5ZvSIVKwwwettT9mqR4=";
+    rev = "f5ec04f091fa5c48c67d7bacec36a414d0be06a5";
+    hash = "sha256-vCi89BOIqYerm2f0CszfbCkv1BnnROCHELkoeBCDAmI=";
   };
 
   nativeBuildInputs = [

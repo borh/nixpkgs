@@ -53,7 +53,7 @@ let
   };
 in stdenv.mkDerivation (finalAttrs: {
   pname = "miopen";
-  version = "5.4.2";
+  version = "5.6.1";
 
   outputs = [
     "out"
@@ -67,7 +67,7 @@ in stdenv.mkDerivation (finalAttrs: {
     owner = "ROCmSoftwarePlatform";
     repo = "MIOpen";
     rev = "rocm-${finalAttrs.version}";
-    hash = "sha256-GfXPCXiVJVve3d8sQCQcFLb/vEnKkVEn7xYUhHkEEVI=";
+    hash = "sha256-8ksk1l4ySmnTIIxXurXXT1gTXLfIKIIfA/C0Z5liOz4=";
   };
 
   nativeBuildInputs = [
